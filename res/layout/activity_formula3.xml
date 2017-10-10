@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ridrio.physicist.FormulaActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/motion201"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/motion201" />
+
+    <Button
+        android:id="@+id/motion202"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/motion201"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/motion201"
+       
+         android:background="@drawable/motion202"/>
+
+    <Button
+        android:id="@+id/motion203"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion201"
+        android:layout_below="@+id/motion201"
+        android:layout_toLeftOf="@+id/motion204"
+       
+        android:background="@drawable/motion203"/>
+
+    <Button
+        android:id="@+id/motion204"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion202"
+        android:layout_alignRight="@+id/motion202"
+        android:layout_below="@+id/motion202"
+       
+        android:background="@drawable/motion204" />
+
+    <Button
+        android:id="@+id/motion205"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion203"
+        android:layout_alignRight="@+id/motion203"
+        android:layout_below="@+id/motion203"
+        
+        android:background="@drawable/motion205"/>
+
+    <Button
+        android:id="@+id/motion206"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion204"
+        android:layout_alignRight="@+id/motion204"
+        android:layout_below="@+id/motion204"
+        
+        android:background="@drawable/motion206" />
+
+    <Button
+        android:id="@+id/motion207"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/motion205"
+        android:layout_alignRight="@+id/motion206"
+        android:layout_below="@+id/motion205"
+        android:background="@drawable/motion207" />
+
+    <Button
+        android:id="@+id/motion208"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/motion207"
+        android:layout_alignRight="@+id/motion207"
+        android:layout_below="@+id/motion207"
+        android:background="@drawable/motion208"  />
+
+    <Button
+        android:id="@+id/motion209"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/motion208"
+        android:layout_alignRight="@+id/motion208"
+        android:layout_below="@+id/motion208"
+        android:background="@drawable/motion209"  />
+
+    <Button
+        android:id="@+id/motion210"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/motion209"
+        android:layout_alignRight="@+id/motion209"
+        android:layout_below="@+id/motion209"
+        android:background="@drawable/motion210"  />
+
+    <Button
+        android:id="@+id/motion211"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion210"
+        android:layout_alignRight="@+id/motion205"
+        android:layout_below="@+id/motion210"
+        android:background="@drawable/motion211"  />
+ <Button
+        android:id="@+id/motion212"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/motion206"
+        android:layout_alignRight="@+id/motion210"
+        android:layout_below="@+id/motion210"
+        android:background="@drawable/motion212"  />
+    <Button
+        android:id="@+id/motion213"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/motion211"
+        android:layout_alignRight="@+id/motion211"
+        android:layout_below="@+id/motion211"
+        android:background="@drawable/motion213"  />
+
+   
+
+    <Button
+        android:id="@+id/motion214"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/motion213"
+        android:layout_alignBottom="@+id/motion213"
+        android:layout_alignLeft="@+id/motion212"
+        android:layout_alignRight="@+id/motion212"
+        android:background="@drawable/motion214"  />
+
+    <TextView
+        android:id="@+id/VectorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Two Dimensional Motion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</RelativeLayout>

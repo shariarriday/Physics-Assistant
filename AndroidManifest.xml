@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.BiTechX.physics_assistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.FormulaActivity"
+            android:label="@string/title_activity_formula"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Formula2Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion101Activity"
+            android:label="@string/title_activity_motion101"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion101ResActivity"
+            android:label="@string/title_activity_motion101_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector101Activity"
+            android:label="@string/title_activity_vector101"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector102Activity"
+            android:label="@string/title_activity_vector102"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector103Activity"
+            android:label="@string/title_activity_vector103"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector104Activity"
+            android:label="@string/title_activity_vector104"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector105Activity"
+            android:label="@string/title_activity_vector105"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector106Activity"
+            android:label="@string/title_activity_vector106"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector107Activity"
+            android:label="@string/title_activity_vector107"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector108Activity"
+            android:label="@string/title_activity_vector108"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector109Activity"
+            android:label="@string/title_activity_vector109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector110Activity"
+            android:label="@string/title_activity_vector110"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector101ResActivity"
+            android:label="@string/title_activity_vector101_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector101ForActivity"
+            android:label="@string/title_activity_vector101_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector102ResActivity"
+            android:label="@string/title_activity_vector102_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector102ForActivity"
+            android:label="@string/title_activity_vector102_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector103ForActivity"
+            android:label="@string/title_activity_vector103_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector103ResActivity"
+            android:label="@string/title_activity_vector103_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector104ResActivity"
+            android:label="@string/title_activity_vector104_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector105ResActivity"
+            android:label="@string/title_activity_vector105_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector104ForActivity"
+            android:label="@string/title_activity_vector104_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector105ForActivity"
+            android:label="@string/title_activity_vector105_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector106ResActivity"
+            android:label="@string/title_activity_vector106_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector106ForActivity"
+            android:label="@string/title_activity_vector106_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector107ResActivity"
+            android:label="@string/title_activity_vector107_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector108ResActivity"
+            android:label="@string/title_activity_vector108_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula.Vector108ForActivity"
+            android:label="@string/title_activity_vector108_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector110ResActivity"
+            android:label="@string/title_activity_vector110_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector110ForActivity"
+            android:label="@string/title_activity_vector110_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector110Res2Activity"
+            android:label="@string/title_activity_vector110_res2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector109ResActivity"
+            android:label="@string/title_activity_vector109_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula.Vector109ForActivity"
+            android:label="@string/title_activity_vector109_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Formula3Activity"
+            android:label="@string/title_activity_formula3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Formula4Activity"
+            android:label="@string/title_activity_formula4"
+            android:screenOrientation="portrait"
+             >
+        </activity>
+        <activity
+            android:name=".formula5.Formula5Activity"
+            android:label="@string/title_activity_formula5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Formula6Activity"
+            android:label="@string/title_activity_formula6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion101ForActivity"
+            android:label="@string/title_activity_motion101_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion102Activity"
+            android:label="@string/title_activity_motion102"
+            android:screenOrientation="portrait" >
+        </activity>
+       com.BiTechX.physics_assistant.formula2.Motion102ResActivity   android:name=".Motion102ResActivity"
+            android:label="@string/title_activity_motion10com.BiTechX.physics_assistant.formula2.Motion103ForActivityctivity
+            android:screenOrientation="portrait">
+        <activity
+            android:name=".Motion103ForActivity"
+            android:label="com.BiTechX.physics_assistant.formula2.Motion104Activityle_activity_motion103_for"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula2.Motion104Activity"
+            android:label="@string/title_activity_motion104"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion104ForActivity"
+            android:label="@string/title_activity_motion104_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion102ForActivity"
+            android:label="@string/title_activity_motion102_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion103Activity"
+            android:label="@string/title_activity_motion103"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion103ResActivity"
+            android:label="@string/title_activity_motion103_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion104ResActivity"
+            android:label="@string/title_activity_motion104_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula2.Motion105Activity"
+            android:label="@string/title_activity_motion105"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion105ForActivity"
+            android:label="@string/title_activity_motion105_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion105ResActivity"
+            android:label="@string/title_activity_motion105_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula2.Motion106Activity"
+            android:label="@string/title_activity_motion106"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion106ResActivity"
+            android:label="@string/title_activity_motion106_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion106ForActivity"
+            android:label="@string/title_activity_motion106_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion107Activity"
+            android:label="@string/title_activity_motion107"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion107ResActivity"
+            android:label="@string/title_activity_motion107_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion107ForActivity"
+            android:label="@string/title_activity_motion107_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion108Activity"
+            android:label="@string/title_activity_motion108"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion108ResActivity"
+            android:label="@string/title_activity_motion108_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion108ForActivity"
+            android:label="@string/title_activity_motion108_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion109Activity"
+            android:label="@string/title_activity_motion109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion109ResActivity"
+            android:label="@string/title_activity_motion109_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MOtion109ForActivity"
+            android:label="@string/title_activity_motion109_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula.Vector109Activity"
+            android:label="@string/title_activity_vector109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion109Activity"
+            android:label="@string/title_activity_motion109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion110Activity"
+            android:label="@string/title_activity_motion110"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion110ResActivity"
+            android:label="@string/title_activity_motion110_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion110ForActivity"
+            android:label="@string/title_activity_motion110_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="formula2.Motion101Activity"
+            android:label="@string/title_activity_motion101"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion102Activity"
+            android:label="@string/title_activity_motion102"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion103Activity"
+            android:label="@string/title_activity_motion103" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="formula2.Motion105Activity"
+            android:label="@string/title_activity_motion105"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion106Activity"
+            android:label="@string/title_activity_motion106" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="formula2.Motion107Activity"
+            android:label="@string/title_activity_motion107"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion108Activity"
+            android:label="@string/title_activity_motion108"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula3.Motion109Activity"
+            android:label="@string/title_activity_motion109" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="formula2.Motion110Activity"
+            android:label="@string/title_activity_motion110"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion201Activity"
+            android:label="@string/title_activity_motion201"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion202Activity"
+            android:label="@string/title_activity_motion202"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion203Activity"
+            android:label="@string/title_activity_motion203"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion204Activity"
+            android:label="@string/title_activity_motion204"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion205Activity"
+            android:label="@string/title_activity_motion205" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion206Activity"
+            android:label="@string/title_activity_motion206"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion207Activity"
+            android:label="@string/title_activity_motion207"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion208Activity"
+            android:label="@string/title_activity_motion208" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion209Activity"
+            android:label="@string/title_activity_motion209"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion210Activity"
+            android:label="@string/title_activity_motion210" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion211Activity"
+            android:label="@string/title_activity_motion211"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion212Activity"
+            android:label="@string/title_activity_motion212"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion213Activity"
+            android:label="@string/title_activity_motion213"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion214Activity"
+            android:label="@string/title_activity_motion214"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion301Activity"
+            android:label="@string/title_activity_motion301"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion302Activity"
+            android:label="@string/title_activity_motion302"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula4.Motion303Activity"
+            android:label="@string/title_activity_motion303"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion304Activity"
+            android:label="@string/title_activity_motion304"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion305Activity"
+            android:label="@string/title_activity_motion305"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion306Activity"
+            android:label="@string/title_activity_motion306"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion307Activity"
+            android:label="@string/title_activity_motion307"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion308Activity"
+            android:label="@string/title_activity_motion308"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Motion501Activity"
+            android:label="@string/title_activity_motion501"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula5.Motion401Activity"
+            android:label="@string/title_activity_motion401"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion402Activity"
+            android:label="@string/title_activity_motion402"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion403Activity"
+            android:label="@string/title_activity_motion403"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion404Activity"
+            android:label="@string/title_activity_motion404"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion405Activity"
+            android:label="@string/title_activity_motion405"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion406Activity"
+            android:label="@string/title_activity_motion406"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion407Activity"
+            android:label="@string/title_activity_motion407"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion408Activity"
+            android:label="@string/title_activity_motion408"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion409Activity"
+            android:label="@string/title_activity_motion409"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Moiton410Activity"
+            android:label="@string/title_activity_moiton410"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion410Activity"
+            android:label="@string/title_activity_motion410"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion411Activity"
+            android:label="@string/title_activity_motion411"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion412Activity"
+            android:label="@string/title_activity_motion412"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WorkActivity"
+            android:label="@string/title_activity_work"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work101Activity"
+            android:label="@string/title_activity_work101"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work102Activity"
+            android:label="@string/title_activity_work102"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work103Activity"
+            android:label="@string/title_activity_work103"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work104Activity"
+            android:label="@string/title_activity_work104"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work105Activity"
+            android:label="@string/title_activity_work105"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work106Activity"
+            android:label="@string/title_activity_work106"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work107Activity"
+            android:label="@string/title_activity_work107"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work108Activity"
+            android:label="@string/title_activity_work108"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work109Activity"
+            android:label="@string/title_activity_work109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work110Activity"
+            android:label="@string/title_activity_work110"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work111Activity"
+            android:label="@string/title_activity_work111"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work112Activity"
+            android:label="@string/title_activity_work112"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion101ResActivity"
+            android:label="@string/title_activity_motion101_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion101ForActivity"
+            android:label="@string/title_activity_motion101_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion102ResActivity"
+            android:label="@string/title_activity_motion102_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion103ResActivity"
+            android:label="@string/title_activity_motion103_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion104ResActivity"
+            android:label="@string/title_activity_motion104_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion105ResActivity"
+            android:label="@string/title_activity_motion105_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion106ResActivity"
+            android:label="@string/title_activity_motion106_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion107ResActivity"
+            android:label="@string/title_activity_motion107_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion108ResActivity"
+            android:label="@string/title_activity_motion108_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion109ResActivity"
+            android:label="@string/title_activity_motion109_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion110ResActivity"
+            android:label="@string/title_activity_motion110_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion102ForActivity"
+            android:label="@string/title_activity_motion102_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion105ForActivity"
+            android:label="@string/title_activity_motion105_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion106ForActivity"
+            android:label="@string/title_activity_motion106_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion107ForActivity"
+            android:label="@string/title_activity_motion107_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion108ForActivity"
+            android:label="@string/title_activity_motion108_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula2.Motion109ForActivity"
+            android:label="@string/title_activity_motion109_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="formula2.Motion110ForActivity"
+            android:label="@string/title_activity_motion110_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".info.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion201ResActivity"
+            android:label="@string/title_activity_motion201_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion201ForActivity"
+            android:label="@string/title_activity_motion201_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion301ResActivity"
+            android:label="@string/title_activity_motion301_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion301ForActivity"
+            android:label="@string/title_activity_motion301_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion302ResActivity"
+            android:label="@string/title_activity_motion302_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion302ForActivity"
+            android:label="@string/title_activity_motion302"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion303ResActivity"
+            android:label="@string/title_activity_motion303_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion303ForActivity"
+            android:label="@string/title_activity_motion303_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula4.Motion304ResActivity"
+            android:label="@string/title_activity_motion304_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion304ForActivity"
+            android:label="@string/title_activity_motion304_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion305ResActivity"
+            android:label="@string/title_activity_motion305_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion305ForActivity"
+            android:label="@string/title_activity_motion305_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion306ResActivity"
+            android:label="@string/title_activity_motion306_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion306ForActivity"
+            android:label="@string/title_activity_motion306_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion307ResActivity"
+            android:label="@string/title_activity_motion307_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion307ForActivity"
+            android:label="@string/title_activity_motion307_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion308ResActivity"
+            android:label="@string/title_activity_motion308_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula4.Motion308ForActivity"
+            android:label="@string/title_activity_motion308_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion202ResActivity"
+            android:label="@string/title_activity_motion202_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion202ForActivity"
+            android:label="@string/title_activity_motion202_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion203ResActivity"
+            android:label="@string/title_activity_motion203_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion203ForActivity"
+            android:label="@string/title_activity_motion203_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion204ResActivity"
+            android:label="@string/title_activity_motion204_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Moiton204ForActivity"
+            android:label="@string/title_activity_moiton204_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion204ForActivity"
+            android:label="@string/title_activity_motion204_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion205ResActivity"
+            android:label="@string/title_activity_motion205_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion205ForActivity"
+            android:label="@string/title_activity_motion205_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion206ResActivity"
+            android:label="@string/title_activity_motion206_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion206ForActivity"
+            android:label="@string/title_activity_motion206_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion207ResActivity"
+            android:label="@string/title_activity_motion207_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion207ForActivity"
+            android:label="@string/title_activity_motion207_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion208ResActivity"
+            android:label="@string/title_activity_motion208_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion208ForActivity"
+            android:label="@string/title_activity_motion208_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion209ResActivity"
+            android:label="@string/title_activity_motion209_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion209ForActivity"
+            android:label="@string/title_activity_motion209_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion210ResActivity"
+            android:label="@string/title_activity_motion210_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion210ForActivity"
+            android:label="@string/title_activity_motion210_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion211ResActivity"
+            android:label="@string/title_activity_motion211_res"
+android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula3.Motion211ForActivity"
+            android:label="@string/title_activity_motion211_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion212ResActivity"
+            android:label="@string/title_activity_motion212_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion212ForActivity"
+            android:label="@string/title_activity_motion212_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion213ResActivity"
+            android:label="@string/title_activity_motion213_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion213ForActivity"
+            android:label="@string/title_activity_motion213_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion214ResActivity"
+            android:label="@string/title_activity_motion214_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula3.Motion214ForActivity"
+            android:label="@string/title_activity_motion214_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".M3Activity"
+            android:label="@string/title_activity_m3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion401ResActivity"
+            android:label="@string/title_activity_motion401_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion401ForActivity"
+            android:label="@string/title_activity_motion401_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Moiton402ResActivity"
+            android:label="@string/title_activity_moiton402_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula5.Motion402ResActivity"
+            android:label="@string/title_activity_motion402_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion402ForActivity"
+            android:label="@string/title_activity_motion402_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion403ResActivity"
+            android:label="@string/title_activity_motion403_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion403ForActivity"
+            android:label="@string/title_activity_motion403_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula5.Motion404ResActivity"
+            android:label="@string/title_activity_motion404_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion404ForActivity"
+            android:label="@string/title_activity_motion404_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion405ResActivity"
+            android:label="@string/title_activity_motion405_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion405ForActivity"
+            android:label="@string/title_activity_motion405_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion406ResActivity"
+            android:label="@string/title_activity_motion406_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Motion406FoActivity"
+            android:label="@string/title_activity_motion406_fo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion406ForActivity"
+            android:label="@string/title_activity_motion406_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion407ResActivity"
+            android:label="@string/title_activity_motion407_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion407ForActivity"
+            android:label="@string/title_activity_motion407_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion408ResActivity"
+            android:label="@string/title_activity_motion408_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion408ForActivity"
+            android:label="@string/title_activity_motion408_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Motion40Activity"
+            android:label="@string/title_activity_motion40"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion409ResActivity"
+            android:label="@string/title_activity_motion409_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion409ForActivity"
+            android:label="@string/title_activity_motion409_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion410ResActivity"
+            android:label="@string/title_activity_motion410_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion410ForActivity"
+            android:label="@string/title_activity_motion410_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion411ResActivity"
+            android:label="@string/title_activity_motion411_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion411ForActivity"
+            android:label="@string/title_activity_motion411_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion412ResActivity"
+            android:label="@string/title_activity_motion412_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula5.Motion412ForActivity"
+            android:label="@string/title_activity_motion412_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work101ResActivity"
+            android:label="@string/title_activity_work101_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work101ForActivity"
+            android:label="@string/title_activity_work101_for"
+android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula6.Work102ResActivity"
+            android:label="@string/title_activity_work102_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work102ForActivity"
+            android:label="@string/title_activity_work102_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work103ResActivity"
+            android:label="@string/title_activity_work103_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work103ForActivity"
+            android:label="@string/title_activity_work103_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work104ResActivity"
+            android:label="@string/title_activity_work104_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work104ForActivity"
+            android:label="@string/title_activity_work104_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work105ResActivity"
+            android:label="@string/title_activity_work105_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work105ForActivity"
+            android:label="@string/title_activity_work105_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work106ResActivity"
+            android:label="@string/title_activity_work106_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work106ForActivity"
+            android:label="@string/title_activity_work106_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work107ResActivity"
+            android:label="@string/title_activity_work107_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work107ForActivity"
+            android:label="@string/title_activity_work107_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work108ResActivity"
+            android:label="@string/title_activity_work108_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work108ForActivity"
+            android:label="@string/title_activity_work108_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work109ResActivity"
+            android:label="@string/title_activity_work109_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work109ForActivity"
+            android:label="@string/title_activity_work109_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work110ResActivity"
+            android:label="@string/title_activity_work110_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula6.Work110ForActivity"
+            android:label="@string/title_activity_work110_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work111ResActivity"
+            android:label="@string/title_activity_work111_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work111ForActivity"
+            android:label="@string/title_activity_work111_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work112ResActivity"
+            android:label="@string/title_activity_work112_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula6.Work112ForActivity"
+            android:label="@string/title_activity_work112_for"
+            android:screenOrientation="portrait" >
+        </activity>
+      
+        <activity
+            android:name=".formula7.Formula7Activity"
+            android:label="@string/title_activity_formula7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity101Activity"
+            android:label="@string/title_activity_gravity101" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula7.Gravity101ResActivity"
+            android:label="@string/title_activity_gravity101_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity101ForActivity"
+            android:label="@string/title_activity_gravity101_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula7.Gravity102Activity"
+            android:label="@string/title_activity_gravity102"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity102ResActivity"
+            android:label="@string/title_activity_gravity102_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity102ForActivity"
+            android:label="@string/title_activity_gravity102_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity103Activity"
+            android:label="@string/title_activity_gravity103" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula7.Gravity103ResActivity"
+            android:label="@string/title_activity_gravity103_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity103ForActivity"
+            android:label="@string/title_activity_gravity103_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name=".formula7.Gravity104Activity"
+            android:label="@string/title_activity_gravity104"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity104ResActivity"
+            android:label="@string/title_activity_gravity104_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity104ForActivity"
+            android:label="@string/title_activity_gravity104_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+         <activity
+            android:name=".formula7.Gravity105Activity"
+            android:label="@string/title_activity_gravity105"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity105ResActivity"
+            android:label="@string/title_activity_gravity105_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity105ForActivity"
+            android:label="@string/title_activity_gravity105_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity106Activity"
+            android:label="@string/title_activity_gravity106"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity106ResActivity"
+            android:label="@string/title_activity_gravity106_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity106ForActivity"
+            android:label="@string/title_activity_gravity106_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity
+            android:name=".formula7.Gravity107Activity"
+            android:label="@string/title_activity_gravity107"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity107ResActivity"
+            android:label="@string/title_activity_gravity107_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity107ForActivity"
+            android:label="@string/title_activity_gravity107_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity
+            android:name=".formula7.Gravity108Activity"
+            android:label="@string/title_activity_gravity108"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity108ResActivity"
+            android:label="@string/title_activity_gravity108_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity108ForActivity"
+            android:label="@string/title_activity_gravity108_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+          <activity
+            android:name=".formula7.Gravity109Activity"
+            android:label="@string/title_activity_gravity109"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity109ResActivity"
+            android:label="@string/title_activity_gravity109_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity109ForActivity"
+            android:label="@string/title_activity_gravity109_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity
+            android:name=".formula7.Gravity110Activity"
+            android:label="@string/title_activity_gravity110" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".formula7.Gravity110ResActivity"
+            android:label="@string/title_activity_gravity110_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity110ForActivity"
+            android:label="@string/title_activity_gravity110_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity111Activity"
+            android:label="@string/title_activity_gravity111"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity111ResActivity"
+            android:label="@string/title_activity_gravity111_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity111ForActivity"
+            android:label="@string/title_activity_gravity111_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity112Activity"
+            android:label="@string/title_activity_gravity112"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity112ResActivity"
+            android:label="@string/title_activity_gravity112_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity112ForActivity"
+            android:label="@string/title_activity_gravity112_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity113Activity"
+            android:label="@string/title_activity_gravity113"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity113ResActivity"
+            android:label="@string/title_activity_gravity113_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity113ForActivity"
+            android:label="@string/title_activity_gravity113_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity114Activity"
+            android:label="@string/title_activity_gravity114"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity114ResActivity"
+            android:label="@string/title_activity_gravity114_res"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity114ForActivity"
+            android:label="@string/title_activity_gravity114_for"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".formula7.Gravity115Activity"
+            android:label="@string/title_activity_gravity115"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".formula7.Gravity115ResActivity"
+            android:label="@string/title_activity_gravity115_res" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.BiTechX.physics_assistant.formula7.Gravity115ForActivity"
+            android:label="@string/title_activity_gravity115_for" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity
+            android:name="com.BiTechX.physics_assistant.info.InstructionsActivity"
+            android:label="@string/title_activity_instructions" 
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

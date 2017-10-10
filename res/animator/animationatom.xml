@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    
+    <item android:drawable="@drawable/atom0000" android:duration="35"/>
+    <item android:drawable="@drawable/atom0001" android:duration="35"/>
+    <item android:drawable="@drawable/atom0002" android:duration="35"/>
+    <item android:drawable="@drawable/atom0003" android:duration="35"/>
+    <item android:drawable="@drawable/atom0004" android:duration="35"/>
+    <item android:drawable="@drawable/atom0005" android:duration="35"/>
+    <item android:drawable="@drawable/atom0006" android:duration="35"/>
+    <item android:drawable="@drawable/atom0007" android:duration="35"/>
+    <item android:drawable="@drawable/atom0008" android:duration="35"/>
+    <item android:drawable="@drawable/atom0009" android:duration="35"/>
+    <item android:drawable="@drawable/atom0010" android:duration="35"/>
+    <item android:drawable="@drawable/atom0011" android:duration="35"/>
+    <item android:drawable="@drawable/atom0012" android:duration="35"/>
+    <item android:drawable="@drawable/atom0013" android:duration="35"/>
+    <item android:drawable="@drawable/atom0014" android:duration="35"/>
+    <item android:drawable="@drawable/atom0015" android:duration="35"/>
+    <item android:drawable="@drawable/atom0016" android:duration="35"/>
+    <item android:drawable="@drawable/atom0017" android:duration="35"/>
+    <item android:drawable="@drawable/atom0018" android:duration="35"/>
+    <item android:drawable="@drawable/atom0019" android:duration="35"/>
+    <item android:drawable="@drawable/atom0020" android:duration="35"/>
+    <item android:drawable="@drawable/atom0021" android:duration="35"/>
+    <item android:drawable="@drawable/atom0022" android:duration="35"/>
+    <item android:drawable="@drawable/atom0023" android:duration="35"/>
+    <item android:drawable="@drawable/atom0024" android:duration="35"/>
+    <item android:drawable="@drawable/atom0025" android:duration="35"/>
+    <item android:drawable="@drawable/atom0026" android:duration="35"/>
+    <item android:drawable="@drawable/atom0027" android:duration="35"/>
+    <item android:drawable="@drawable/atom0028" android:duration="35"/>
+    <item android:drawable="@drawable/atom0029" android:duration="35"/>
+    <item android:drawable="@drawable/atom0030" android:duration="35"/>
+    <item android:drawable="@drawable/atom0031" android:duration="35"/>
+    <item android:drawable="@drawable/atom0032" android:duration="35"/>
+    <item android:drawable="@drawable/atom0033" android:duration="35"/>
+    <item android:drawable="@drawable/atom0034" android:duration="35"/>
+    <item android:drawable="@drawable/atom0035" android:duration="35"/>
+    <item android:drawable="@drawable/atom0036" android:duration="35"/>
+    <item android:drawable="@drawable/atom0037" android:duration="35"/>
+    <item android:drawable="@drawable/atom0038" android:duration="35"/>
+    <item android:drawable="@drawable/atom0039" android:duration="35"/>
+    <item android:drawable="@drawable/atom0040" android:duration="35"/>
+    <item android:drawable="@drawable/atom0041" android:duration="35"/>
+    <item android:drawable="@drawable/atom0042" android:duration="35"/>
+    <item android:drawable="@drawable/atom0043" android:duration="35"/>
+    <item android:drawable="@drawable/atom0044" android:duration="35"/>
+    <item android:drawable="@drawable/atom0045" android:duration="35"/>
+    <item android:drawable="@drawable/atom0046" android:duration="35"/>
+    <item android:drawable="@drawable/atom0047" android:duration="35"/>
+    <item android:drawable="@drawable/atom0048" android:duration="35"/>
+    <item android:drawable="@drawable/atom0049" android:duration="35"/>
+    <item android:drawable="@drawable/atom0050" android:duration="35"/>
+
+</animation-list>
